@@ -18,7 +18,7 @@ public class userDaoImple implements userdao{
 	private Connection con;
 	
 	public userDaoImple() {
-		String url = "jdbc:mysql://localhost:3306/projectjdbc", username = "Rajan", password = "rajanPA90()**";
+		String url = "jdbc:mysql://localhost:3306/projectjdbc", username = "AddYourMysqlUsername", password = "AddYourMysqlPassword";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, username, password);
@@ -98,3 +98,4 @@ public class userDaoImple implements userdao{
 	}
 
 }
+
